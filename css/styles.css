@@ -1,0 +1,66 @@
+/*Common styles*/
+body{
+    font-family: Roboto, sans-serif;
+    color: #434455;
+}
+/**
+  |============================
+  | Top Line
+  |============================
+*/
+.topline {}
+
+.topline-nav {}
+
+.topline-logo {}
+
+.topline-list {}
+
+.topline-item {}
+
+.topline-link {}
+
+.topline-connexion {}
+
+.topline-connexion-list {}
+
+.topline-connexion-item {}
+
+.topline-connexion-link {}
+
+/**
+  |============================
+  | Hero Section
+  |============================
+*/
+.hero {}
+
+.hero-heading {}
+
+.hero-btm {}
+
+/**
+  |============================
+  | Feature Section
+  |============================
+*/
+.feature {}
+
+.feature-subject {}
+
+.feature-title {}
+
+.feature-desc {}
+
+/**
+  |============================
+  | Doing Section
+  |============================
+*/
+.doing {}
+
+.doing-title {}
+
+.doing-items {}
+
+.doing-img {}
