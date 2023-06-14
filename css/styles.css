@@ -8,59 +8,237 @@ body{
   | Top Line
   |============================
 */
-.topline {}
 
-.topline-nav {}
+.topline-logo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2E2F42;
+}
 
-.topline-logo {}
+.topline-logo-web{
+    color: #4D5AE5;
+}
 
-.topline-list {}
+.topline-link{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
 
-.topline-item {}
+}
+.topline-link:hover, .topline-link:focus {
+         color: #404BBF;
+}
 
-.topline-link {}
 
-.topline-connexion {}
+.topline-connexion-link{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
 
-.topline-connexion-list {}
-
-.topline-connexion-item {}
-
-.topline-connexion-link {}
+}
+.topline-connexion-tel{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.topline-connexion-link:hover, .topline-connexion-link:focus {
+    color: #404BBF;
+}
 
 /**
   |============================
   | Hero Section
   |============================
 */
-.hero {}
+.hero {
+    background-color: black;
+}
 
-.hero-heading {}
+.hero-heading {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+}
 
-.hero-btm {}
+.hero-btm {
+        cursor: pointer;
+        background: #4D5AE5;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
+}
+.hero-btm:hover, .hero-btm:focus{
+    background: #4D5AE5;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 4px;
+}
+.hero-btm:active{
+    background: #404BBF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+
 
 /**
   |============================
   | Feature Section
   |============================
 */
-.feature {}
 
-.feature-subject {}
+.feature-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
 
-.feature-title {}
-
-.feature-desc {}
+.feature-desc {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
 
 /**
   |============================
   | Doing Section
   |============================
 */
-.doing {}
 
-.doing-title {}
+.doing-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
 
-.doing-items {}
 
-.doing-img {}
+/**
+  |============================
+  | Team Section
+  |============================
+*/
+
+.team-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.team-subtitle {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.team-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+.footer{
+    background-color: black;
+}
+.footer-logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: #F4F4FD;
+}
+
+.footer-logo-web{
+    color: #4D5AE5;
+}
+
+.foter-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
+/**
+  |============================
+  | Portfolio Button Block
+  |============================
+*/
+.portf-btm {}
+
+.portf-btm-active {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        cursor: pointer;
+        background: #404BBF;
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+            border-radius: 4px;
+}
+
+.portf-btm-filter {
+    background: #F4F4FD;
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: #4D5AE5;
+}
+/**
+  |============================
+  | Portfolio Row
+  |============================
+*/
+
+
+.row-subtitle {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.row-text {
+    font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
