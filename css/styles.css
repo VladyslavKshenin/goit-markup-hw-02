@@ -18,14 +18,14 @@
 body{
     font-family: Roboto, sans-serif;
     background-color: var(--body-bg);
-    color: var(--body-cl)
+    color: var(--body-cl);
   
 }
 /*Reset*/
-.link a{
+.link{
     text-decoration: none;
 }
-.list ul ol{
+.list{
     list-style: none
 }
 /**
@@ -42,7 +42,9 @@ body{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--logo-cl)
+        color: var(--logo-cl);
+        
+
 }
 
 .logo-studio{
@@ -62,7 +64,9 @@ body{
          color: #404BBF;
 }
 
-
+.topline-connexion{
+    font-style: normal
+}
 .topline-connexion-link{
         font-size: 16px;
         line-height: 1.5;
@@ -70,11 +74,7 @@ body{
         color: #434455;
 
 }
-.topline-connexion-tel{
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+
 }
 .topline-connexion-link:hover, .topline-connexion-link:focus {
     color: #404BBF;
