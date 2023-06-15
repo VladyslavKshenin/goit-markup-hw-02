@@ -10,6 +10,8 @@
     --logo-cl: #4D5AE5;
     --logo-heading-cl: #2E2F42;
     --section-bg: #2e2f42;
+    --porfolio-bt-bg:#F4F4FD;
+    
     /*Others*/
 }
 
@@ -229,26 +231,19 @@ body{
 */
 
 
-.portf-btm-active {
-    font-weight: 500;
+.portf-btm {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        text-align: center;
         letter-spacing: 0.04em;
-        color: #FFFFFF;
+        color: var(--logo-cl);
+        background-color: var(--porfolio-bt-bg);
         cursor: pointer;
-        background: #404BBF;
-
 }
-
-.portf-btm-filter {
-    background: #F4F4FD;
-        font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            text-align: center;
-            letter-spacing: 0.04em;
-            color: #4D5AE5;
+.portf-btm:hover, .portf-btm:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 /**
   |============================
@@ -256,18 +251,22 @@ body{
   |============================
 */
 
+.porfolio-page{
+
+}
+
 
 .row-subtitle {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--logo-heading-cl)
 }
 
 .row-text {
     font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--body-cl)
 }
