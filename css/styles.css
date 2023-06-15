@@ -1,7 +1,32 @@
+:root{
+    /*Font*/
+    --primary-font: "Roboto",
+        sans-serif;
+    --secodary-font: 'Raleway',
+        sans-serif;
+    /*Colors*/
+    --body-bg: #FFFFFF;
+    --body-cl: #434455;
+    --logo-cl: #4D5AE5;
+    --logo-heading-cl: #2E2F42;
+    /*Others*/
+}
+
+
+
 /*Common styles*/
 body{
     font-family: Roboto, sans-serif;
-    color: #434455;
+    background-color: var(--body-bg);
+    color: var(--body-cl)
+  
+}
+/*Reset*/
+.link a{
+    text-decoration: none;
+}
+.list ul ol{
+    list-style: none
 }
 /**
   |============================
@@ -10,18 +35,19 @@ body{
 */
 
 .topline-logo {
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2E2F42;
+        color: var(--logo-cl)
 }
 
-.topline-logo-web{
-    color: #4D5AE5;
+.logo-studio{
+    color: var(--logo-heading-cl);
+  
 }
 
 .topline-link{
@@ -84,13 +110,10 @@ body{
 }
 .hero-btm:hover, .hero-btm:focus{
     background: #4D5AE5;
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        border-radius: 4px;
 }
 .hero-btm:active{
     background: #404BBF;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
+
 }
 
 
@@ -191,32 +214,25 @@ body{
   | Portfolio Button Block
   |============================
 */
-.portf-btm {}
+
 
 .portf-btm-active {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        display: flex;
-        align-items: center;
         text-align: center;
         letter-spacing: 0.04em;
         color: #FFFFFF;
         cursor: pointer;
         background: #404BBF;
-            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-            border-radius: 4px;
+
 }
 
 .portf-btm-filter {
     background: #F4F4FD;
-        border: 1px solid #E7E9FC;
-        border-radius: 4px;
         font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
-            display: flex;
-            align-items: center;
             text-align: center;
             letter-spacing: 0.04em;
             color: #4D5AE5;
